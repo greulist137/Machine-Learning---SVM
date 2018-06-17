@@ -26,10 +26,11 @@ clf.fit(features_train, labels_train)
 
 #use the features_test testing data now for predictions and assign it to a prediction variable
 pred = clf.predict(features_test)
-print('Prediction: ' + pred)
+print('Prediction: ')
+print(pred)
 
 #Calculate the accuracy and present the results
 acc_score = accuracy_score(pred, labels_test)
 
-print('Accuracy: ' + acc_score) 
-
+print('Accuracy: ')
+print(acc_score) 
